@@ -18,19 +18,22 @@
   position: relative;
   top: 55px;
 }
+
 section.bg-top{
   width: 100%;
   min-height:500px;
-  background-image: url('images/bg.jpg');
+  background-image: url('../images/bg.jpg');
   background-size: cover;
   background-position:center;
   background-attachment: fixed;
   position: relative;
 }
+
 .fix-zindex{
   position: relative;
   z-index: 2;
 }
+ 
 .overlay{
   z-index: 1;
   width: 100%;
@@ -61,9 +64,13 @@ section.chamada h2{
   font-size: 34px;
 }
 
-section.sobre{padding: 30px 0;}
+section.sobre{
+  padding: 30px 0;
+}
 
-.custom-title{position: relative;}
+.custom-title{
+  position: relative;
+}
 
 .custom-title h2{
   color: #888;
@@ -73,9 +80,9 @@ section.sobre{padding: 30px 0;}
 .custom-title div{
   position: absolute;
   left: 0;
-  top: 0;
+  top: -10px;
   background: #3FA3C5;
-  width: 30px;
+  width: 60px;
   height:4px;
 }
 
@@ -92,9 +99,11 @@ section.diferenciais h2{
   padding:10px;
   border-bottom: 1px dotted black;
 }
+
 .espaco{
-  margin: 10px;
+  margin-right: 10px;
 }
+
 section.convite{
   padding: 15px 0;
   background: #3FA3C5;
@@ -147,9 +156,6 @@ footer a{
   color: white;
   font-size: 17px;
 }
-
-
-
 
 @media screen and (max-width: 1024px){
   /*
